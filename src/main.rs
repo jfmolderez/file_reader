@@ -1,6 +1,6 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader};
-
+os-release
 fn main() {
     let args: Vec<String> = std::env::args().collect();
     if args.len() != 2 {
